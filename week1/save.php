@@ -1,8 +1,8 @@
-﻿<?php
+<?php
     $host = 'mysql.metropolia.fi';
-    $dbname = 'kirillk'; // your username
-    $user = 'kirillk'; // your username
-    $pass = 'vepeyue'; // your database password
+    $dbname = ''; // your username
+    $user = ''; // your username
+    $pass = ''; // your database password
 	
 	$data = array();
 	$data['name'] = $_POST['name'];
