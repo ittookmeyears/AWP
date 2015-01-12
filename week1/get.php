@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -10,9 +10,9 @@
 <div id="accordion">
 <?php
     $host = 'mysql.metropolia.fi';
-    $dbname = 'kirillk'; // your username
-    $user = 'kirillk'; // your username
-    $pass = 'vepeyue'; // your database password
+    $dbname = ''; // your username
+    $user = ''; // your username
+    $pass = ''; // your database password
     
     try {
             $DBH = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
